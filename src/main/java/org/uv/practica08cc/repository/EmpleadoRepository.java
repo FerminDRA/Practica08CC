@@ -2,10 +2,10 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package org.uv.Proctica08CC.Repository;
+package org.uv.practica08cc.repository;
 
 import org.springframework.data.repository.CrudRepository;
-import org.uv.Proctica08CC.models.Empleado;
+import org.uv.practica08cc.models.Empleado;
 
 
 /**

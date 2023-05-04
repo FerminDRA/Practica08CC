@@ -1,13 +1,33 @@
-package org.uv.Proctica08CC.dtos;
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package org.uv.practica08cc.models;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 
 /**
  *
  * @author fermin
  */
-public class DTOEmpleado {
+@Entity(name = "Empleado")
+public class Empleado {
+    @Id
+    @GeneratedValue(strategy = GenerationType.SEQUENCE)
+    @Column(name = "id")
     private int clave;
+    
+    @Column(name = "nombre")
     private String nombre;
+    
+    @Column(name = "direccion")
     private String direccion;
+    
+    @Column(name = "telefono")
     private String telefono;
 
     public int getClave() {

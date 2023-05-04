@@ -1,4 +1,4 @@
-package org.uv.Proctica08CC.controllers;
+package org.uv.practica08cc.controllers;
 
 
 import java.util.ArrayList;
@@ -15,9 +15,9 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import org.uv.Proctica08CC.Repository.EmpleadoRepository;
-import org.uv.Proctica08CC.dtos.DTOEmpleado;
-import org.uv.Proctica08CC.models.Empleado;
+import org.uv.practica08cc.repository.EmpleadoRepository;
+import org.uv.practica08cc.dtos.DTOEmpleado;
+import org.uv.practica08cc.models.Empleado;
 
 /**
  *
